@@ -65,3 +65,69 @@ Antes de começar, recomenda-se a leitura dos seguintes documentos:
 Para dúvidas ou contribuições, entre em contato com o professor ou abra uma issue no repositório.
 
 ---
+
+# Microcontrollers Minicourse - TM4C123G
+
+This repository contains the material for the **Microcontrollers Minicourse** taught at the Technology Center of the Federal University of Santa Maria (UFSM), through the GEDRE – Lighting Intelligence group.
+
+## 👨‍🏫 Instructor
+Prof. Renan Duarte  
+[renan.duarte@gedre.ufsm.br](mailto:renan.duarte@gedre.ufsm.br)  
+GEDRE – Federal University of Santa Maria
+
+## 🧠 Objective
+The course aims to introduce the main theoretical and practical concepts related to microcontroller programming, using as a basis an ARM microcontroller from the Tiva C series (TM4C123GH6PM) and the **TM4C123G LaunchPad** development board.
+
+## 📁 Repository Structure
+
+- `Minicurso_uC.pdf`: Slides used during the minicourse.
+- `Bibliografia/`: References and supplementary materials.
+- `Labs/`: Source codes for the practical classes.
+
+> **Note:** The Code Composer Studio (CCS) projects are not included. To run the examples, it is necessary to create projects in CCS according to the instructions in the slides.
+
+## 📚 Course Content
+
+1. **Basic Concepts**
+2. **Software Installation**
+3. **Base Project**
+4. **System Clock**
+5. **GPIO**
+6. **Interrupts**
+7. **Timer**
+8. **ADC**
+9. **PWM**
+10. **Final Challenge** - Waveform generation via PWM controlled by analog input
+
+## 💻 Tools Used
+
+- [Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO) – Eclipse-based IDE
+- [TivaWare SDK](https://www.ti.com/tool/SW-TM4C) – Texas Instruments library
+- [TM4C123G LaunchPad](https://www.ti.com/lit/pdf/spmu296) board
+
+## 🚀 How to Use the Codes
+
+1. **Create a new project in CCS**:
+   - Select the TM4C123GH6PM microcontroller.
+   - Configure the path to the TivaWare SDK.
+
+2. **Add the source files**:
+   - Copy the `.c` file from the `Labs/` folder to the project directory.
+
+3. **Compile and load the code onto the board**:
+   - Connect the board via USB.
+   - Compile the project and upload it to the board.
+
+> **Tip:** Refer to the `Minicurso_uC.pdf` file for specific configuration and usage details of each example.
+
+## 📖 Reading Requirements
+
+Before starting, it is recommended to read the following documents:
+
+- [TM4C123GH6PM Datasheet](https://www.ti.com/lit/ds/symlink/tm4c123gh6pm.pdf)
+- [TM4C123G LaunchPad Manual](https://www.ti.com/lit/pdf/spmu296)
+- [TivaWare Guide](https://www.ti.com/lit/ug/spmu298e/spmu298e.pdf)
+
+## 📫 Contact
+
+For questions or contributions, please contact the professor or open an issue in the repository.
