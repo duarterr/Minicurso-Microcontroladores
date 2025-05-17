@@ -37,6 +37,14 @@ O curso visa introduzir os principais conceitos teóricos e práticos relacionad
 - [TivaWare SDK](https://www.ti.com/tool/SW-TM4C) – Biblioteca da Texas Instruments
 - Placa [TM4C123G LaunchPad](https://www.ti.com/lit/pdf/spmu296)
 
+## ⚠️ Aviso Importante: Versão do Code Composer Studio
+
+Devido a limitações atuais (maio de 2025) da versão 20 do Code Composer Studio (CCS) – como a impossibilidade de criar projetos vazios e incompatibilidades com o TivaWare SDK – **este minicurso utiliza a versão 12 do CCS**, que é plenamente compatível com os dispositivos da família Tiva C (TM4C123G).
+
+📎 Um tutorial completo de desinstalação da versão 20 está disponível na pasta "outros".
+📎 Um tutorial para download e instalação da versão 12 está disponível nos slides do minicurso.
+
+
 ## 🚀 Como Utilizar os Códigos
 
 1. **Crie um novo projeto no CCS**:
@@ -104,6 +112,14 @@ The course aims to introduce the main theoretical and practical concepts related
 - [Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO) – Eclipse-based IDE
 - [TivaWare SDK](https://www.ti.com/tool/SW-TM4C) – Texas Instruments library
 - [TM4C123G LaunchPad](https://www.ti.com/lit/pdf/spmu296) board
+
+## ⚠️ Important Notice: Code Composer Studio Version
+
+Due to current limitations (as of May 2025) in version 20 of Code Composer Studio (CCS) – such as the inability to create empty projects and incompatibilities with the TivaWare SDK – **this minicourse uses version 12 of CCS**, which is fully compatible with devices from the Tiva C family (TM4C123G).
+
+📎 A complete tutorial for uninstalling version 20 is available in the "outros" folder.  
+📎 A tutorial for downloading and installing version 12 is available in the minicourse slides.
+
 
 ## 🚀 How to Use the Codes
 
